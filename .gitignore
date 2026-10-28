@@ -1,0 +1,19 @@
+# Credenciais e configurações locais — NUNCA subir (repositório público)
+.env
+.env.*
+config.php
+**/config.php
+wp-config.php
+*.sql
+*.sql.gz
+
+# Dependências e builds
+node_modules/
+vendor/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
